@@ -1,0 +1,19 @@
+<h3 style="font-weight: bold;">Posts List</h3>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Author Name</th>
+      <th>Content</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="item in posts">
+      <td>{{item.id}}</td>
+      <td>{{item.author_name}}</td>
+      <td>{{item.content}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<a href="#!add" class="btn btn-warning">Add Post</a>
