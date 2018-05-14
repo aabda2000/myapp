@@ -11,5 +11,4 @@ postsModule.controller('ListController', function($scope,$http){
 postsModule.controller('AddController', function($scope,$http){
 
 
-
 });
